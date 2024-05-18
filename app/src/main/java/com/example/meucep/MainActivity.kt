@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
 
         window.statusBarColor = Color.parseColor("#4CAF50")
 
-        //Configuracoes do retrofit
+       
 
         val retrofit = Retrofit.Builder()
             .addConverterFactory(GsonConverterFactory.create())
