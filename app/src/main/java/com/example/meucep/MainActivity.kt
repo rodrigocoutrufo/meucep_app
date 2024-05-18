@@ -56,7 +56,7 @@ class MainActivity : AppCompatActivity() {
                         }
                         else{
 
-                            Toast.makeText(applicationContext, "CEP Errado",Toast.LENGTH_SHORT).show()
+                            Toast.makeText(applicationContext, "CEP Inválido",Toast.LENGTH_SHORT).show()
                         }
                     }
 
