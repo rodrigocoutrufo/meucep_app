@@ -36,9 +36,9 @@ class LoginActivity : AppCompatActivity() {
                 return@setOnClickListener
             }
 
-            // Aqui você pode adicionar lógica de autenticação
+            
 
-            // Se autenticação for bem-sucedida, vá para a página inicial
+            
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
             finish()
